@@ -1,0 +1,51 @@
+=== components-dialog (0 failing checks / 108 units) ===
+=== config-cameras (16 failing checks / 474 units) ===
+  id=181427620 ctx=audio_transcription.enabled.label
+    src: Enable transcription
+    tgt: فعال کردن رونویسی
+  id=181427829 ctx=record.alerts.retain.days.description
+    src: Number of days to retain recordings of detection events.
+    tgt: تعداد روزهایی که لازم است سوابق رویدادهای شناسایی‌شده نگهداری EMSebi شوند .
+  id=181427928 ctx=snapshots.quality.label
+    src: Snapshot quality
+    tgt: کیفیت JPEG
+  id=181427929 ctx=snapshots.quality.description
+    src: Encode quality for saved snapshots (0-100).
+    tgt: کیفیت کدگذاری JPEG برای عکس‌های ذخیره شده (0-100).
+  id=181427964 ctx=mqtt.quality.label
+    src: JPEG quality
+    tgt: کیفیت JPEG
+  id=181427976 ctx=onvif.label
+    src: ONVIF
+    tgt: ONVIF پروتکل استاندارد انتقال تصویر .
+  id=181428005 ctx=onvif.autotracking.timeout.description
+    src: Wait this many seconds after losing tracking before returning camera to preset position.
+    tgt: چند ثانیه صبر کن پس از از دست دادن ردیابی قبل از بازگرداندن دوربین به موقعیت از پیش تعیین شده .
+  id=181428014 ctx=ui.label
+    src: Camera UI
+    tgt: رابط کاربری دوربین
+  id=182962646 ctx=profiles.label
+    src: Profiles
+    tgt: Profiles
+  id=183729754 ctx=onvif.profile.label
+    src: ONVIF profile
+    tgt: ONVIF profile
+  id=183729755 ctx=onvif.profile.description
+    src: Specific ONVIF media profile to use for PTZ control, matched by token or name. If not set, the first profile with valid PTZ configuration is selected automatically.
+    tgt: Specific ONVIF media profile to use for PTZ control, matched by token or name. If not set, the first profile with valid PTZ configuration is selected automatically.
+  id=188702020 ctx=record.export.max_concurrent.label
+    src: Maximum concurrent exports
+    tgt: Maximum concurrent exports
+  id=188702021 ctx=record.export.max_concurrent.description
+    src: Maximum number of export jobs to process at the same time.
+    tgt: Maximum number of export jobs to process at the same time.
+  id=190091365 ctx=audio.filters.threshold.label
+    src: Minimum audio confidence
+    tgt: Minimum audio confidence
+  id=190091366 ctx=audio.filters.threshold.description
+    src: Minimum confidence threshold for the audio event to be counted.
+    tgt: Minimum confidence threshold for the audio event to be counted.
+  id=195463542 ctx=record.export.chapters.label
+    src: Chapter metadata to embed in exported recordings
+    tgt: Chapter metadata to embed in exported recordings
+=== views-exports (0 failing checks / 86 units) ===

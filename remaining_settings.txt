@@ -1,0 +1,26 @@
+views-settings: Total=1312 Untranslated=25
+  menu.systemFfmpeg = FFmpeg
+  menu.systemLogging = Logging
+  configForm.reviewLabels.summary = {{count}} labels selected
+  cameraManagement.clone.categories.items.ffmpeg_live = Stream URLs and roles
+  frigatePlus.cardTitles.api = API
+  configForm.ffmpegArgs.presetLabels.preset-jetson-h264 = NVIDIA Jetson (H.264)
+  configForm.ffmpegArgs.presetLabels.preset-rkmpp = Rockchip RKMPP
+  configForm.sections.tls = TLS
+  configForm.ffmpegArgs.presetLabels.preset-rtsp-blue-iris = RTSP - Blue Iris
+  cameraManagement.cameraConfig.ffmpeg.pathPlaceholder = rtsp://...
+  menu.cameraMqttConfig = MQTT
+  configForm.ffmpegArgs.presetLabels.preset-intel-qsv-h265 = Intel QuickSync (H.265)
+  cameraWizard.testResultLabels.fps = FPS
+  configForm.sections.mqtt = MQTT
+  configForm.ffmpegArgs.presetLabels.preset-rtsp-udp = RTSP - UDP
+  cameraManagement.clone.categories.items.mqtt = MQTT
+  menu.systemTls = TLS
+  configForm.ffmpegArgs.presetLabels.preset-intel-qsv-h264 = Intel QuickSync (H.264)
+  menu.globalFfmpeg = FFmpeg
+  configForm.ffmpegArgs.presetLabels.preset-jetson-h265 = NVIDIA Jetson (H.265)
+  cameraManagement.clone.categories.items.onvif = ONVIF
+  menu.systemMqtt = MQTT
+  configForm.sections.genai = GenAI
+  configForm.sections.ffmpeg = FFmpeg
+  configForm.sections.go2rtc = go2rtc

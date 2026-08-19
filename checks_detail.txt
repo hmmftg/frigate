@@ -1,0 +1,326 @@
+Total units with checks: 65
+  id=152360530 ctx=masksAndZones.motionMasks.context.title
+    src: Motion masks are used to prevent unwanted types of motion from triggering detection (example: tree branches, camera timestamps). Motion masks should be used <em>very sparingly</em>, over-masking will make it more difficult for objects to be tracked.
+    tgt: ماسک‌های حرکت برای جلوگیری از این‌که انواع ناخواستهٔ حرکت باعث فعال‌شدن تشخیص شوند استفاده می‌شوند (مثلاً شاخه‌های درخت، مهر زمانیِ دوربین). ماسک‌های حرکت باید <em>با نهایت صرفه‌جویی </em> استفاده شوند؛ ماسک‌گذاریِ بیش‌ازحد باعث می‌شود ردیابی اشیا دشوارتر شود.
+    checks: 
+
+  id=152360562 ctx=motionDetectionTuner.improveContrast.desc
+    src: Improve contrast for darker scenes. <em>Default: ON</em>
+    tgt: بهبود کنتراست برای صحنه‌های تاریک‌تر. <em>پیش‌فرض: روشن </em>
+    checks: 
+
+  id=152360583 ctx=debug.regions.title
+    src: Regions
+    tgt: مناطق
+    checks: 
+
+  id=153411525 ctx=enrichments.title
+    src: Enrichments Settings
+    tgt: تنظیمات غنی‌سازی‌ها
+    checks: 
+
+  id=153411543 ctx=enrichments.semanticSearch.modelSize.small.desc
+    src: Using <em>small</em> employs a quantized version of the model that uses less RAM and runs faster on CPU with a very negligible difference in embedding quality.
+    tgt: استفاده از <em>small </em> از نسخهٔ کوانتیزهٔ مدل استفاده می‌کند که RAM کم‌تری مصرف می‌کند و روی CPU سریع‌تر اجرا می‌شود، با تفاوت بسیار ناچیز در کیفیت داخلی.
+    checks: 
+
+  id=153411545 ctx=enrichments.semanticSearch.modelSize.large.desc
+    src: Using <em>large</em> employs the full Jina model and will automatically run on the GPU if applicable.
+    tgt: استفاده از <em>large </em> از مدل کامل Jina استفاده می‌کند و در صورت امکان به‌طور خودکار روی GPU اجرا می‌شود.
+    checks: 
+
+  id=153411554 ctx=enrichments.faceRecognition.modelSize.large.desc
+    src: Using <em>large</em> employs an ArcFace face embedding model and will automatically run on the GPU if applicable.
+    tgt: استفاده از <em>large </em> از مدل embedding چهرهٔ ArcFace استفاده می‌کند و در صورت امکان به‌طور خودکار روی GPU اجرا می‌شود.
+    checks: 
+
+  id=162587641 ctx=triggers.type.description
+    src: Description
+    tgt: توضیحات
+    checks: 
+
+  id=168462494 ctx=cameraManagement.cameraConfig.enabled
+    src: Enabled
+    tgt: فعال
+    checks: 
+
+  id=168462498 ctx=cameraManagement.cameraConfig.ffmpeg.pathPlaceholder
+    src: rtsp://...
+    tgt: rtsp://...
+    checks: 
+
+  id=168462520 ctx=cameraReview.reviewClassification.desc
+    src: Frigate categorizes review items as Alerts and Detections. By default, all <em>person</em> and <em>car</em> objects are considered Alerts. You can refine categorization of your review items by configuring required zones for them.
+    tgt: Frigate موارد بازبینی را به‌عنوان اعلان‌ها و تشخیص‌ها دسته‌بندی می‌کند. به‌طور پیش‌فرض، همهٔ اشیای <em>person </em> و <em>car </em> به‌عنوان اعلان در نظر گرفته می‌شوند. می‌توانید با پیکربندی نواحی لازم برای آن‌ها، طبقه‌بندی موارد بازبینی خود را دقیق‌تر کنید.
+    checks: 
+
+  id=170315987 ctx=cameraWizard.step2.uriCopy
+    src: Copy
+    tgt: کپی
+    checks: 
+
+  id=170316006 ctx=cameraWizard.step3.roleLabels.record
+    src: Recording
+    tgt: ضبط
+    checks: 
+
+  id=180821211 ctx=maintenance.title
+    src: Maintenance
+    tgt: نگهداری
+    checks: 
+
+  id=180821217 ctx=maintenance.sync.currentStatus
+    src: Status
+    tgt: وضعیت
+    checks: 
+
+  id=180821221 ctx=maintenance.sync.statusLabel
+    src: Status
+    tgt: وضعیت
+    checks: 
+
+  id=180821245 ctx=maintenance.sync.event_snapshots
+    src: Tracked Object Snapshots
+    tgt: عکس‌های فوری اشیاء ردیابی‌شده
+    checks: 
+
+  id=180821246 ctx=maintenance.sync.event_thumbnails
+    src: Tracked Object Thumbnails
+    tgt: عکس‌های فوری اشیاء ردیابی‌شده
+    checks: 
+
+  id=180934745 ctx=menu.cameras
+    src: Camera configuration
+    tgt: پیکربندی دوربین
+    checks: 
+
+  id=180934748 ctx=menu.globalRecording
+    src: Recording
+    tgt: ضبط
+    checks: 
+
+  id=180934750 ctx=menu.globalFfmpeg
+    src: FFmpeg
+    tgt: FFmpeg
+    checks: 
+
+  id=180934763 ctx=menu.systemLogging
+    src: Logging
+    tgt: Logging
+    checks: 
+
+  id=180934767 ctx=menu.systemFfmpeg
+    src: FFmpeg
+    tgt: FFmpeg
+    checks: 
+
+  id=180934775 ctx=menu.integrationObjectClassification
+    src: Object classification
+    tgt: طبقه‌بندی اشیاء
+    checks: 
+
+  id=180934779 ctx=menu.cameraRecording
+    src: Recording
+    tgt: ضبط
+    checks: 
+
+  id=180934834 ctx=configForm.additionalProperties.remove
+    src: Remove
+    tgt: حذف
+    checks: 
+
+  id=180934840 ctx=configForm.roleMap.remove
+    src: Remove
+    tgt: حذف
+    checks: 
+
+  id=180934849 ctx=configForm.sections.detect
+    src: Detection
+    tgt: تشخیص
+    checks: 
+
+  id=180934850 ctx=configForm.sections.record
+    src: Recording
+    tgt: ضبط
+    checks: 
+
+  id=180934865 ctx=configForm.sections.go2rtc
+    src: go2rtc
+    tgt: go2rtc
+    checks: 
+
+  id=180934866 ctx=configForm.sections.ffmpeg
+    src: FFmpeg
+    tgt: FFmpeg
+    checks: 
+
+  id=180934870 ctx=configForm.sections.genai
+    src: GenAI
+    tgt: GenAI
+    checks: 
+
+  id=180934895 ctx=configForm.inputRoles.options.detect
+    src: Detect
+    tgt: تشخیص
+    checks: 
+
+  id=180934896 ctx=configForm.inputRoles.options.record
+    src: Record
+    tgt: ضبط
+    checks: 
+
+  id=180934909 ctx=cameraConfig.title
+    src: Camera Configuration
+    tgt: پیکربندی دوربین
+    checks: 
+
+  id=180934922 ctx=toast.saveAllPartial
+    src: {{successCount}} of {{totalCount}} section saved. {{failCount}} failed. {{successCount}} of {{totalCount}} sections saved. {{failCount}} failed.
+    tgt: {{successCount}} از {{totalCount}} بخش ذخیره شد. {{failCount}} ناموفق بود. {{successCount}} از {{totalCount}} بخش ذخیره شد. {{failCount}} ناموفق بود.
+    checks: 
+
+  id=181209409 ctx=masksAndZones.zones.enabled.title
+    src: Enabled
+    tgt: فعال
+    checks: 
+
+  id=181209418 ctx=masksAndZones.masks.enabled.title
+    src: Enabled
+    tgt: فعال
+    checks: 
+
+  id=182897052 ctx=profiles.active
+    src: Active
+    tgt: فعال
+    checks: 
+
+  id=182897058 ctx=profiles.cameraCount
+    src: {{count}} camera {{count}} cameras
+    tgt: {{count}} دوربین {{count}} دوربین
+    checks: 
+
+  id=182907490 ctx=go2rtcStreams.ffmpeg.videoCopy
+    src: Copy
+    tgt: کپی
+    checks: 
+
+  id=182907494 ctx=go2rtcStreams.ffmpeg.audioCopy
+    src: Copy
+    tgt: کپی
+    checks: 
+
+  id=183573493 ctx=menu.maintenance
+    src: Maintenance
+    tgt: نگهداری
+    checks: 
+
+  id=183614753 ctx=configForm.ffmpegArgs.presetLabels.preset-intel-qsv-h264
+    src: Intel QuickSync (H.264)
+    tgt: Intel QuickSync (H.264)
+    checks: 
+
+  id=183614754 ctx=configForm.ffmpegArgs.presetLabels.preset-intel-qsv-h265
+    src: Intel QuickSync (H.265)
+    tgt: Intel QuickSync (H.265)
+    checks: 
+
+  id=183614756 ctx=configForm.ffmpegArgs.presetLabels.preset-jetson-h264
+    src: NVIDIA Jetson (H.264)
+    tgt: NVIDIA Jetson (H.264)
+    checks: 
+
+  id=183614757 ctx=configForm.ffmpegArgs.presetLabels.preset-jetson-h265
+    src: NVIDIA Jetson (H.265)
+    tgt: NVIDIA Jetson (H.265)
+    checks: 
+
+  id=183614758 ctx=configForm.ffmpegArgs.presetLabels.preset-rkmpp
+    src: Rockchip RKMPP
+    tgt: Rockchip RKMPP
+    checks: 
+
+  id=183739084 ctx=configForm.ffmpegArgs.presetLabels.preset-rtsp-blue-iris
+    src: RTSP - Blue Iris
+    tgt: RTSP - Blue Iris
+    checks: 
+
+  id=188704144 ctx=button.overriddenInCameras.label
+    src: Overridden in {{count}} camera Overridden in {{count}} cameras
+    tgt: در {{count}} دوربین لغو شده در {{count}} دوربین لغو شده
+    checks: 
+
+  id=188704146 ctx=button.overriddenInCameras.heading
+    src: This global section has fields that are overridden in {{count}} camera. This global section has fields that are overridden in {{count}} cameras.
+    tgt: این بخش سراسری فیلدهایی دارد که در {{count}} دوربین لغو شده است. این بخش سراسری فیلدهایی دارد که در {{count}} دوربین لغو شده است.
+    checks: 
+
+  id=188704147 ctx=button.overriddenInCameras.othersField
+    src: {{count}} other {{count}} others
+    tgt: {{count}} مورد دیگر {{count}} مورد دیگر
+    checks: 
+
+  id=189689754 ctx=configForm.genaiRoles.options.descriptions
+    src: Descriptions
+    tgt: توضیحات
+    checks: 
+
+  id=189689775 ctx=logger.logLevel.warning
+    src: Warning
+    tgt: هشدار
+    checks: 
+
+  id=190159828 ctx=previewQuality.medium
+    src: Medium
+    tgt: متوسط
+    checks: 
+
+  id=190164705 ctx=button.overriddenGlobalHeading
+    src: This camera overrides {{count}} field from the global config: This camera overrides {{count}} fields from the global config:
+    tgt: این دوربین {{count}} فیلد از پیکربندی سراسری را لغو می‌کند: این دوربین {{count}} فیلد از پیکربندی سراسری را لغو می‌کند:
+    checks: 
+
+  id=190164707 ctx=button.overriddenBaseConfigHeading
+    src: The {{profile}} profile overrides {{count}} field from the base config: The {{profile}} profile overrides {{count}} fields from the base config:
+    tgt: پروفایل {{profile}} تعداد {{count}} فیلد از پیکربندی پایه را لغو می‌کند: پروفایل {{profile}} تعداد {{count}} فیلد از پیکربندی پایه را لغو می‌کند:
+    checks: 
+
+  id=190532331 ctx=go2rtcStreams.ffmpeg.hardwareVideotoolbox
+    src: VideoToolbox
+    tgt: VideoToolbox
+    checks: 
+
+  id=191710966 ctx=cameraManagement.clone.description
+    src: Copy a camera's configuration to one or more other cameras or a new camera. Identity (name, friendly name, web UI URL, display order) is never copied.
+    tgt: کپی پیکربندی یک دوربین به یک یا چند دوربین دیگر یا یک دوربین جدید. هویت (نام، نام دوستانه، آدرس رابط کاربری وب، ترتیب نمایش) هرگز کپی نمی‌شود.
+    checks: 
+
+  id=191710993 ctx=cameraManagement.clone.categories.items.record
+    src: Recording
+    tgt: ضبط
+    checks: 
+
+  id=191711012 ctx=cameraManagement.clone.categories.items.zones
+    src: Zones
+    tgt: مناطق
+    checks: 
+
+  id=191711016 ctx=cameraManagement.clone.footer.changeCount
+    src: {{count}} change will be applied {{count}} changes will be applied
+    tgt: {{count}} تغییر اعمال خواهد شد {{count}} تغییر اعمال خواهد شد
+    checks: 
+
+  id=191711019 ctx=cameraManagement.clone.footer.submit
+    src: Clone
+    tgt: کپی
+    checks: 
+
+  id=191711023 ctx=cameraManagement.clone.toast.successMulti
+    src: Settings copied to {{count}} camera Settings copied to {{count}} cameras
+    tgt: تنظیمات به {{count}} دوربین کپی شد تنظیمات به {{count}} دوربین کپی شد
+    checks: 
+
+  id=191711024 ctx=cameraManagement.clone.toast.successMultiWithRestart
+    src: Settings copied to {{count}} camera. Restart Frigate to apply all changes. Settings copied to {{count}} cameras. Restart Frigate to apply all changes.
+    tgt: تنظیمات به {{count}} دوربین کپی شد. فریگیت را بازراه‌اندازی کنید تا همه تغییرات اعمال شود. تنظیمات به {{count}} دوربین کپی شد. فریگیت را بازراه‌اندازی کنید تا همه تغییرات اعمال شود.
+    checks: 
+

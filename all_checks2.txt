@@ -1,0 +1,320 @@
+=== views-settings (69 checks) ===
+  id=152360530 ctx=masksAndZones.motionMasks.context.title
+    src: Motion masks are used to prevent unwanted types of motion from triggering detection (example: tree branches, camera timestamps). Motion masks should be used <em>very sparingly</em>, over-masking will make it more difficult for objects to be tracked.
+    tgt: ماسک‌های حرکت برای جلوگیری از این‌که انواع ناخواستهٔ حرکت باعث فعال‌شدن تشخیص شوند استفاده می‌شوند (مثلاً شاخه‌های درخت، مهر زمانیِ دوربین). ماسک‌های حرکت باید <em>با نهایت صرفه‌جویی </em> استفاده شوند؛ ماسک‌گذاریِ بیش‌ازحد باعث می‌شود ردیابی اشیا دشوارتر شود.
+  id=152360562 ctx=motionDetectionTuner.improveContrast.desc
+    src: Improve contrast for darker scenes. <em>Default: ON</em>
+    tgt: بهبود کنتراست برای صحنه‌های تاریک‌تر. <em>پیش‌فرض: روشن </em>
+  id=152360583 ctx=debug.regions.title
+    src: Regions
+    tgt: مناطق
+  id=152360691 ctx=frigatePlus.snapshotConfig.cleanCopyWarning
+    src: Some cameras have snapshots disabled
+    tgt: برای برخی دوربین‌ها عکس فوری فعال است اما clean copy غیرفعال است. برای این‌که بتوانید تصاویر این دوربین‌ها را به Frigate+ ارسال کنید، باید <code>clean_copy </code> را در پیکربندی عکس فوری خود فعال کنید.
+  id=153411525 ctx=enrichments.title
+    src: Enrichments Settings
+    tgt: تنظیمات غنی‌سازی‌ها
+  id=153411543 ctx=enrichments.semanticSearch.modelSize.small.desc
+    src: Using <em>small</em> employs a quantized version of the model that uses less RAM and runs faster on CPU with a very negligible difference in embedding quality.
+    tgt: استفاده از <em>small </em> از نسخهٔ کوانتیزهٔ مدل استفاده می‌کند که RAM کم‌تری مصرف می‌کند و روی CPU سریع‌تر اجرا می‌شود، با تفاوت بسیار ناچیز در کیفیت داخلی.
+  id=153411545 ctx=enrichments.semanticSearch.modelSize.large.desc
+    src: Using <em>large</em> employs the full Jina model and will automatically run on the GPU if applicable.
+    tgt: استفاده از <em>large </em> از مدل کامل Jina استفاده می‌کند و در صورت امکان به‌طور خودکار روی GPU اجرا می‌شود.
+  id=153411554 ctx=enrichments.faceRecognition.modelSize.large.desc
+    src: Using <em>large</em> employs an ArcFace face embedding model and will automatically run on the GPU if applicable.
+    tgt: استفاده از <em>large </em> از مدل embedding چهرهٔ ArcFace استفاده می‌کند و در صورت امکان به‌طور خودکار روی GPU اجرا می‌شود.
+  id=162587641 ctx=triggers.type.description
+    src: Description
+    tgt: توضیحات
+  id=168462494 ctx=cameraManagement.cameraConfig.enabled
+    src: Enabled
+    tgt: فعال
+  id=168462498 ctx=cameraManagement.cameraConfig.ffmpeg.pathPlaceholder
+    src: rtsp://...
+    tgt: rtsp://...
+  id=168462520 ctx=cameraReview.reviewClassification.desc
+    src: Frigate categorizes review items as Alerts and Detections. By default, all <em>person</em> and <em>car</em> objects are considered Alerts. You can refine categorization of your review items by configuring required zones for them.
+    tgt: Frigate موارد بازبینی را به‌عنوان اعلان‌ها و تشخیص‌ها دسته‌بندی می‌کند. به‌طور پیش‌فرض، همهٔ اشیای <em>person </em> و <em>car </em> به‌عنوان اعلان در نظر گرفته می‌شوند. می‌توانید با پیکربندی نواحی لازم برای آن‌ها، طبقه‌بندی موارد بازبینی خود را دقیق‌تر کنید.
+  id=170315987 ctx=cameraWizard.step2.uriCopy
+    src: Copy
+    tgt: کپی
+  id=170316006 ctx=cameraWizard.step3.roleLabels.record
+    src: Recording
+    tgt: ضبط
+  id=180821211 ctx=maintenance.title
+    src: Maintenance
+    tgt: نگهداری
+  id=180821217 ctx=maintenance.sync.currentStatus
+    src: Status
+    tgt: وضعیت
+  id=180821221 ctx=maintenance.sync.statusLabel
+    src: Status
+    tgt: وضعیت
+  id=180821245 ctx=maintenance.sync.event_snapshots
+    src: Tracked Object Snapshots
+    tgt: عکس‌های فوری اشیاء ردیابی‌شده
+  id=180821246 ctx=maintenance.sync.event_thumbnails
+    src: Tracked Object Thumbnails
+    tgt: عکس‌های فوری اشیاء ردیابی‌شده
+  id=180934745 ctx=menu.cameras
+    src: Camera configuration
+    tgt: پیکربندی دوربین
+  id=180934748 ctx=menu.globalRecording
+    src: Recording
+    tgt: ضبط
+  id=180934750 ctx=menu.globalFfmpeg
+    src: FFmpeg
+    tgt: FFmpeg
+  id=180934763 ctx=menu.systemLogging
+    src: Logging
+    tgt: Logging
+  id=180934767 ctx=menu.systemFfmpeg
+    src: FFmpeg
+    tgt: FFmpeg
+  id=180934775 ctx=menu.integrationObjectClassification
+    src: Object classification
+    tgt: طبقه‌بندی اشیاء
+  id=180934779 ctx=menu.cameraRecording
+    src: Recording
+    tgt: ضبط
+  id=180934834 ctx=configForm.additionalProperties.remove
+    src: Remove
+    tgt: حذف
+  id=180934840 ctx=configForm.roleMap.remove
+    src: Remove
+    tgt: حذف
+  id=180934849 ctx=configForm.sections.detect
+    src: Detection
+    tgt: تشخیص
+  id=180934850 ctx=configForm.sections.record
+    src: Recording
+    tgt: ضبط
+  id=180934865 ctx=configForm.sections.go2rtc
+    src: go2rtc
+    tgt: go2rtc
+  id=180934866 ctx=configForm.sections.ffmpeg
+    src: FFmpeg
+    tgt: FFmpeg
+  id=180934870 ctx=configForm.sections.genai
+    src: GenAI
+    tgt: GenAI
+  id=180934895 ctx=configForm.inputRoles.options.detect
+    src: Detect
+    tgt: تشخیص
+  id=180934896 ctx=configForm.inputRoles.options.record
+    src: Record
+    tgt: ضبط
+  id=180934909 ctx=cameraConfig.title
+    src: Camera Configuration
+    tgt: پیکربندی دوربین
+  id=180934921 ctx=toast.saveAllSuccess
+    src: Saved {{count}} section successfully. All {{count}} sections saved successfully.
+    tgt: Saved {{count}} section successfully. All {{count}} sections saved successfully.
+  id=180934922 ctx=toast.saveAllPartial
+    src: {{successCount}} of {{totalCount}} section saved. {{failCount}} failed. {{successCount}} of {{totalCount}} sections saved. {{failCount}} failed.
+    tgt: {{successCount}} of {{totalCount}} section saved. {{failCount}} failed. {{successCount}} of {{totalCount}} sections saved. {{failCount}} failed.
+  id=181209409 ctx=masksAndZones.zones.enabled.title
+    src: Enabled
+    tgt: فعال
+  id=181209418 ctx=masksAndZones.masks.enabled.title
+    src: Enabled
+    tgt: فعال
+  id=182897052 ctx=profiles.active
+    src: Active
+    tgt: فعال
+  id=182897058 ctx=profiles.cameraCount
+    src: {{count}} camera {{count}} cameras
+    tgt: {{count}} camera {{count}} cameras
+  id=182907490 ctx=go2rtcStreams.ffmpeg.videoCopy
+    src: Copy
+    tgt: کپی
+  id=182907494 ctx=go2rtcStreams.ffmpeg.audioCopy
+    src: Copy
+    tgt: کپی
+  id=183573493 ctx=menu.maintenance
+    src: Maintenance
+    tgt: نگهداری
+  id=183614753 ctx=configForm.ffmpegArgs.presetLabels.preset-intel-qsv-h264
+    src: Intel QuickSync (H.264)
+    tgt: Intel QuickSync (H.264)
+  id=183614754 ctx=configForm.ffmpegArgs.presetLabels.preset-intel-qsv-h265
+    src: Intel QuickSync (H.265)
+    tgt: Intel QuickSync (H.265)
+  id=183614756 ctx=configForm.ffmpegArgs.presetLabels.preset-jetson-h264
+    src: NVIDIA Jetson (H.264)
+    tgt: NVIDIA Jetson (H.264)
+  id=183614757 ctx=configForm.ffmpegArgs.presetLabels.preset-jetson-h265
+    src: NVIDIA Jetson (H.265)
+    tgt: NVIDIA Jetson (H.265)
+  id=183614758 ctx=configForm.ffmpegArgs.presetLabels.preset-rkmpp
+    src: Rockchip RKMPP
+    tgt: Rockchip RKMPP
+  id=183739084 ctx=configForm.ffmpegArgs.presetLabels.preset-rtsp-blue-iris
+    src: RTSP - Blue Iris
+    tgt: RTSP - Blue Iris
+  id=188704144 ctx=button.overriddenInCameras.label
+    src: Overridden in {{count}} camera Overridden in {{count}} cameras
+    tgt: Overridden in {{count}} camera Overridden in {{count}} cameras
+  id=188704145 ctx=button.overriddenInCameras.tooltip
+    src: {{count}} camera overrides values in this section. Click to see details. {{count}} cameras override values in this section. Click to see details.
+    tgt: {{count}} camera overrides values in this section. Click to see details. {{count}} cameras override values in this section. Click to see details.
+  id=188704146 ctx=button.overriddenInCameras.heading
+    src: This global section has fields that are overridden in {{count}} camera. This global section has fields that are overridden in {{count}} cameras.
+    tgt: This global section has fields that are overridden in {{count}} camera. This global section has fields that are overridden in {{count}} cameras.
+  id=188704147 ctx=button.overriddenInCameras.othersField
+    src: {{count}} other {{count}} others
+    tgt: {{count}} other {{count}} others
+  id=189689754 ctx=configForm.genaiRoles.options.descriptions
+    src: Descriptions
+    tgt: توضیحات
+  id=189689775 ctx=logger.logLevel.warning
+    src: Warning
+    tgt: هشدار
+  id=190159828 ctx=previewQuality.medium
+    src: Medium
+    tgt: متوسط
+  id=190164705 ctx=button.overriddenGlobalHeading
+    src: This camera overrides {{count}} field from the global config: This camera overrides {{count}} fields from the global config:
+    tgt: This camera overrides {{count}} field from the global config: This camera overrides {{count}} fields from the global config:
+  id=190164707 ctx=button.overriddenBaseConfigHeading
+    src: The {{profile}} profile overrides {{count}} field from the base config: The {{profile}} profile overrides {{count}} fields from the base config:
+    tgt: The {{profile}} profile overrides {{count}} field from the base config: The {{profile}} profile overrides {{count}} fields from the base config:
+  id=190504762 ctx=toast.saveAllSuccessRestartRequired
+    src: Saved {{count}} section successfully. Restart Frigate to apply your changes. All {{count}} sections saved successfully. Restart Frigate to apply your changes.
+    tgt: Saved {{count}} section successfully. Restart Frigate to apply your changes. All {{count}} sections saved successfully. Restart Frigate to apply your changes.
+  id=190532331 ctx=go2rtcStreams.ffmpeg.hardwareVideotoolbox
+    src: VideoToolbox
+    tgt: VideoToolbox
+  id=191710966 ctx=cameraManagement.clone.description
+    src: Copy a camera's configuration to one or more other cameras or a new camera. Identity (name, friendly name, web UI URL, display order) is never copied.
+    tgt: کپی پیکربندی یک دوربین به یک یا چند دوربین دیگر یا یک دوربین جدید. هویت (نام، نام دوستانه، آدرس رابط کاربری وب، ترتیب نمایش) هرگز کپی نمی‌شود.
+  id=191710993 ctx=cameraManagement.clone.categories.items.record
+    src: Recording
+    tgt: ضبط
+  id=191711012 ctx=cameraManagement.clone.categories.items.zones
+    src: Zones
+    tgt: مناطق
+  id=191711016 ctx=cameraManagement.clone.footer.changeCount
+    src: {{count}} change will be applied {{count}} changes will be applied
+    tgt: {{count}} change will be applied {{count}} changes will be applied
+  id=191711019 ctx=cameraManagement.clone.footer.submit
+    src: Clone
+    tgt: کپی
+  id=191711023 ctx=cameraManagement.clone.toast.successMulti
+    src: Settings copied to {{count}} camera Settings copied to {{count}} cameras
+    tgt: Settings copied to {{count}} camera Settings copied to {{count}} cameras
+  id=191711024 ctx=cameraManagement.clone.toast.successMultiWithRestart
+    src: Settings copied to {{count}} camera. Restart Frigate to apply all changes. Settings copied to {{count}} cameras. Restart Frigate to apply all changes.
+    tgt: Settings copied to {{count}} camera. Restart Frigate to apply all changes. Settings copied to {{count}} cameras. Restart Frigate to apply all changes.
+=== config-global (13 checks) ===
+  id=181578175 ctx=go2rtc.label
+    src: go2rtc
+    tgt: go2rtc
+  id=181578265 ctx=ui.label
+    src: UI
+    tgt: رابط کاربری
+  id=181578310 ctx=detectors.deepstack.label
+    src: DeepStack
+    tgt: DeepStack
+  id=181578376 ctx=detectors.edgetpu.label
+    src: EdgeTPU
+    tgt: EdgeTPU
+  id=181578405 ctx=detectors.hailo8l.label
+    src: Hailo-8/Hailo-8L
+    tgt: Hailo-8/Hailo-8L
+  id=181578434 ctx=detectors.memryx.label
+    src: MemryX
+    tgt: MemryX
+  id=181578492 ctx=detectors.openvino.label
+    src: OpenVINO
+    tgt: OpenVINO
+  id=181578604 ctx=detectors.tensorrt.label
+    src: TensorRT
+    tgt: TensorRT
+  id=181578891 ctx=record.label
+    src: Recording
+    tgt: ضبط
+  id=181579031 ctx=audio_transcription.enabled.label
+    src: Enable audio transcription
+    tgt: فعال کردن رونویسی صوتی
+  id=181579059 ctx=classification.custom.object_config.objects.label
+    src: Classify objects
+    tgt: طبقه‌بندی اشیاء
+  id=181579181 ctx=onvif.label
+    src: ONVIF
+    tgt: ONVIF پروتکل استاندارد انتقال تصویر .
+  id=181579210 ctx=onvif.autotracking.timeout.description
+    src: Wait this many seconds after losing tracking before returning camera to preset position.
+    tgt: پس از از دست دادن ردیابی، این تعداد ثانیه صبر کنید قبل از بازگرداندن دوربین به موقعیت از پیش تعیین‌شده.
+=== config-cameras (6 checks) ===
+  id=181427595 ctx=label
+    src: CameraConfig
+    tgt: پیکربندی دوربین
+  id=181427620 ctx=audio_transcription.enabled.label
+    src: Enable transcription
+    tgt: فعال کردن رونویسی
+  id=181427794 ctx=record.label
+    src: Recording
+    tgt: ضبط
+  id=181427976 ctx=onvif.label
+    src: ONVIF
+    tgt: ONVIF پروتکل استاندارد انتقال تصویر .
+  id=181428005 ctx=onvif.autotracking.timeout.description
+    src: Wait this many seconds after losing tracking before returning camera to preset position.
+    tgt: پس از از دست دادن ردیابی، این تعداد ثانیه صبر کنید قبل از بازگرداندن دوربین به موقعیت از پیش تعیین‌شده.
+  id=181428014 ctx=ui.label
+    src: Camera UI
+    tgt: رابط کاربری دوربین
+=== common (4 checks) ===
+  id=152349252 ctx=button.enabled
+    src: Enabled
+    tgt: فعال
+  id=152349256 ctx=button.save
+    src: Save
+    tgt: ذخیره
+  id=152349260 ctx=button.copy
+    src: Copy
+    tgt: کپی
+  id=152349272 ctx=button.delete
+    src: Delete
+    tgt: حذف
+=== views-system (6 checks) ===
+  id=152359686 ctx=cameras.label.detect
+    src: detect
+    tgt: تشخیص
+  id=152359693 ctx=cameras.label.cameraFfmpeg
+    src: {{camName}} FFmpeg
+    tgt: {{camName}} FFmpeg
+  id=152359709 ctx=enrichments.title
+    src: Enrichments
+    tgt: غنی‌سازی‌ها
+  id=175758738 ctx=general.otherProcesses.series.go2rtc
+    src: go2rtc
+    tgt: go2rtc
+  id=175758739 ctx=general.otherProcesses.series.recording
+    src: recording
+    tgt: ضبط
+  id=180823496 ctx=cameras.connectionQuality.fair
+    src: Fair
+    tgt: متوسط
+=== objects (2 checks) ===
+  id=152349483 ctx=fedex
+    src: FedEx
+    tgt: FedEx
+  id=152349489 ctx=postnord
+    src: PostNord
+    tgt: PostNord
+=== views-exports (2 checks) ===
+  id=180822990 ctx=caseDialog.descriptionLabel
+    src: Description
+    tgt: توضیحات
+  id=186237997 ctx=bulkActions.delete
+    src: Delete
+    tgt: حذف
+=== views-search (2 checks) ===
+  id=152359565 ctx=button.save
+    src: Save search
+    tgt: ذخیره جستجو
+  id=152359586 ctx=filter.searchType.description
+    src: Description
+    tgt: توضیحات

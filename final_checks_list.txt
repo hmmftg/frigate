@@ -1,0 +1,459 @@
+=== views-settings (59 checks) ===
+  [152360583] debug.regions.title
+    src: Regions
+    tgt: مناطق
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=71119440d98a8a1c
+
+  [153411525] enrichments.title
+    src: Enrichments Settings
+    tgt: تنظیمات غنی‌سازی‌ها
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=049a49768411d5ca
+
+  [162587641] triggers.type.description
+    src: Description
+    tgt: توضیحات
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=67115d6d56b08b81
+
+  [168462494] cameraManagement.cameraConfig.enabled
+    src: Enabled
+    tgt: فعال
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=1db8e621082d826a
+
+  [168462498] cameraManagement.cameraConfig.ffmpeg.pathPlaceholder
+    src: rtsp://...
+    tgt: rtsp://...
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=f80bdfe31194ee45
+
+  [170315987] cameraWizard.step2.uriCopy
+    src: Copy
+    tgt: کپی
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=4a0341c4b107945d
+
+  [170316006] cameraWizard.step3.roleLabels.record
+    src: Recording
+    tgt: ضبط
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=2adaf8c531255af8
+
+  [180821211] maintenance.title
+    src: Maintenance
+    tgt: نگهداری
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=ba8f4fec719dc101
+
+  [180821217] maintenance.sync.currentStatus
+    src: Status
+    tgt: وضعیت
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=eec413a3dd0acc3a
+
+  [180821221] maintenance.sync.statusLabel
+    src: Status
+    tgt: وضعیت
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=9699861154aaa2bc
+
+  [180821245] maintenance.sync.event_snapshots
+    src: Tracked Object Snapshots
+    tgt: عکس‌های فوری اشیاء ردیابی‌شده
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=8d7427bd700d519c
+
+  [180821246] maintenance.sync.event_thumbnails
+    src: Tracked Object Thumbnails
+    tgt: عکس‌های فوری اشیاء ردیابی‌شده
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=6906c89a359b0240
+
+  [180934745] menu.cameras
+    src: Camera configuration
+    tgt: پیکربندی دوربین
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=f9940eb082f67904
+
+  [180934748] menu.globalRecording
+    src: Recording
+    tgt: ضبط
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=0bd03b7148677291
+
+  [180934750] menu.globalFfmpeg
+    src: FFmpeg
+    tgt: FFmpeg
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=80c111a69913f7b5
+
+  [180934763] menu.systemLogging
+    src: Logging
+    tgt: Logging
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=3fdecc151406bcad
+
+  [180934767] menu.systemFfmpeg
+    src: FFmpeg
+    tgt: FFmpeg
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=04a888da4a2c0a66
+
+  [180934775] menu.integrationObjectClassification
+    src: Object classification
+    tgt: طبقه‌بندی اشیاء
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=7e1f822e04e3ea8d
+
+  [180934779] menu.cameraRecording
+    src: Recording
+    tgt: ضبط
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=7a9fb974cef920c3
+
+  [180934834] configForm.additionalProperties.remove
+    src: Remove
+    tgt: حذف
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=8e108e9b9ea6dafe
+
+  [180934840] configForm.roleMap.remove
+    src: Remove
+    tgt: حذف
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=c852a56009d98515
+
+  [180934849] configForm.sections.detect
+    src: Detection
+    tgt: تشخیص
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=222b2203818af6ed
+
+  [180934850] configForm.sections.record
+    src: Recording
+    tgt: ضبط
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=6a344c8632264f50
+
+  [180934865] configForm.sections.go2rtc
+    src: go2rtc
+    tgt: go2rtc
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=51fe8a27e485d54c
+
+  [180934866] configForm.sections.ffmpeg
+    src: FFmpeg
+    tgt: FFmpeg
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=767597d46a2ac21a
+
+  [180934870] configForm.sections.genai
+    src: GenAI
+    tgt: GenAI
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=0a887e0c1490d2f8
+
+  [180934895] configForm.inputRoles.options.detect
+    src: Detect
+    tgt: تشخیص
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=99a0837ca659a57e
+
+  [180934896] configForm.inputRoles.options.record
+    src: Record
+    tgt: ضبط
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=6aa4bae177d8796c
+
+  [180934909] cameraConfig.title
+    src: Camera Configuration
+    tgt: پیکربندی دوربین
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=9427e0e6c0258b66
+
+  [180934922] toast.saveAllPartial
+    src: {{successCount}} of {{totalCount}} section saved. {{failCount}} failed. | {{successCount}} of {{totalCount}} sections saved. {{failCount}} failed.
+    tgt: {{successCount}} از {{totalCount}} بخش ذخیره شد. {{failCount}} ناموفق بود. | {{successCount}} از {{totalCount}} بخش ذخیره شد. {{failCount}} ناموفق بود.
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=d21d8d9f1ddf80a5
+
+  [181209409] masksAndZones.zones.enabled.title
+    src: Enabled
+    tgt: فعال
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=b0d6b88ce7b41ec8
+
+  [181209418] masksAndZones.masks.enabled.title
+    src: Enabled
+    tgt: فعال
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=98ce58606ffba68d
+
+  [182897052] profiles.active
+    src: Active
+    tgt: فعال
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=3056d316543329f9
+
+  [182897058] profiles.cameraCount
+    src: {{count}} camera | {{count}} cameras
+    tgt: {{count}} دوربین | {{count}} دوربین
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=442b4f5e1a501f9c
+
+  [182907490] go2rtcStreams.ffmpeg.videoCopy
+    src: Copy
+    tgt: کپی
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=549b8d1aa6fba6b8
+
+  [182907494] go2rtcStreams.ffmpeg.audioCopy
+    src: Copy
+    tgt: کپی
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=250bc4f5df62a926
+
+  [183573493] menu.maintenance
+    src: Maintenance
+    tgt: نگهداری
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=b177b26d85ff5baf
+
+  [183614753] configForm.ffmpegArgs.presetLabels.preset-intel-qsv-h264
+    src: Intel QuickSync (H.264)
+    tgt: Intel QuickSync (H.264)
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=3ffefd37fd092375
+
+  [183614754] configForm.ffmpegArgs.presetLabels.preset-intel-qsv-h265
+    src: Intel QuickSync (H.265)
+    tgt: Intel QuickSync (H.265)
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=b260957ed70d7c19
+
+  [183614756] configForm.ffmpegArgs.presetLabels.preset-jetson-h264
+    src: NVIDIA Jetson (H.264)
+    tgt: NVIDIA Jetson (H.264)
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=3264158c6d915efb
+
+  [183614757] configForm.ffmpegArgs.presetLabels.preset-jetson-h265
+    src: NVIDIA Jetson (H.265)
+    tgt: NVIDIA Jetson (H.265)
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=271c326063397ae6
+
+  [183614758] configForm.ffmpegArgs.presetLabels.preset-rkmpp
+    src: Rockchip RKMPP
+    tgt: Rockchip RKMPP
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=93db9ac4aea777a8
+
+  [183739084] configForm.ffmpegArgs.presetLabels.preset-rtsp-blue-iris
+    src: RTSP - Blue Iris
+    tgt: RTSP - Blue Iris
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=6910d46fa7a877f9
+
+  [188704144] button.overriddenInCameras.label
+    src: Overridden in {{count}} camera | Overridden in {{count}} cameras
+    tgt: در {{count}} دوربین لغو شده | در {{count}} دوربین لغو شده
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=e47c1fe313efad67
+
+  [188704146] button.overriddenInCameras.heading
+    src: This global section has fields that are overridden in {{count}} camera. | This global section has fields that are overridden in {{count}} cameras.
+    tgt: این بخش سراسری فیلدهایی دارد که در {{count}} دوربین لغو شده است. | این بخش سراسری فیلدهایی دارد که در {{count}} دوربین لغو شده است.
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=39869f80eba73b9e
+
+  [188704147] button.overriddenInCameras.othersField
+    src: {{count}} other | {{count}} others
+    tgt: {{count}} مورد دیگر | {{count}} مورد دیگر
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=4ce47cf85b9986ec
+
+  [189689754] configForm.genaiRoles.options.descriptions
+    src: Descriptions
+    tgt: توضیحات
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=b2e20ff2b21467f1
+
+  [189689775] logger.logLevel.warning
+    src: Warning
+    tgt: هشدار
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=89611b6049f35777
+
+  [190159828] previewQuality.medium
+    src: Medium
+    tgt: متوسط
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=df070fed6a5b7a0d
+
+  [190164705] button.overriddenGlobalHeading
+    src: This camera overrides {{count}} field from the global config: | This camera overrides {{count}} fields from the global config:
+    tgt: این دوربین {{count}} فیلد از پیکربندی سراسری را لغو می‌کند: | این دوربین {{count}} فیلد از پیکربندی سراسری را لغو می‌کند:
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=02e8970b32dec78e
+
+  [190164707] button.overriddenBaseConfigHeading
+    src: The {{profile}} profile overrides {{count}} field from the base config: | The {{profile}} profile overrides {{count}} fields from the base config:
+    tgt: پروفایل {{profile}} تعداد {{count}} فیلد از پیکربندی پایه را لغو می‌کند: | پروفایل {{profile}} تعداد {{count}} فیلد از پیکربندی پایه را لغو می‌کند:
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=3ee1f56ae88c91cc
+
+  [190532331] go2rtcStreams.ffmpeg.hardwareVideotoolbox
+    src: VideoToolbox
+    tgt: VideoToolbox
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=5e8734e3f95c1395
+
+  [191710966] cameraManagement.clone.description
+    src: Copy a camera's configuration to one or more other cameras or a new camera. Identity (name, friendly name, web UI URL, display order) is never copied.
+    tgt: کپی پیکربندی یک دوربین به یک یا چند دوربین دیگر یا یک دوربین جدید. هویت (نام، نام دوستانه، آدرس رابط کاربری وب، ترتیب نمایش) هرگز کپی نمی‌شود.
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=cb7ed21a066be662
+
+  [191710993] cameraManagement.clone.categories.items.record
+    src: Recording
+    tgt: ضبط
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=c567cae1c1aedce7
+
+  [191711012] cameraManagement.clone.categories.items.zones
+    src: Zones
+    tgt: مناطق
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=e55618c380ba1dde
+
+  [191711016] cameraManagement.clone.footer.changeCount
+    src: {{count}} change will be applied | {{count}} changes will be applied
+    tgt: {{count}} تغییر اعمال خواهد شد | {{count}} تغییر اعمال خواهد شد
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=efcfd3503c937b8a
+
+  [191711019] cameraManagement.clone.footer.submit
+    src: Clone
+    tgt: کپی
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=c78061905a999c7e
+
+  [191711023] cameraManagement.clone.toast.successMulti
+    src: Settings copied to {{count}} camera | Settings copied to {{count}} cameras
+    tgt: تنظیمات به {{count}} دوربین کپی شد | تنظیمات به {{count}} دوربین کپی شد
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=c4054f9ea3225f14
+
+  [191711024] cameraManagement.clone.toast.successMultiWithRestart
+    src: Settings copied to {{count}} camera. Restart Frigate to apply all changes. | Settings copied to {{count}} cameras. Restart Frigate to apply all changes.
+    tgt: تنظیمات به {{count}} دوربین کپی شد. فریگیت را بازراه‌اندازی کنید تا همه تغییرات اعمال شود. | تنظیمات به {{count}} دوربین کپی شد. فریگیت را بازراه‌اندازی کنید تا همه تغییرات اعمال شود.
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-settings/fa/?checksum=c841a418ed1a407f
+
+=== config-global (11 checks) ===
+  [181578175] go2rtc.label
+    src: go2rtc
+    tgt: go2rtc
+    url: https://hosted.weblate.org/translate/frigate-nvr/config-global/fa/?checksum=592c8997db2fe006
+
+  [181578265] ui.label
+    src: UI
+    tgt: رابط کاربری
+    url: https://hosted.weblate.org/translate/frigate-nvr/config-global/fa/?checksum=09f98a67bbee87e7
+
+  [181578310] detectors.deepstack.label
+    src: DeepStack
+    tgt: DeepStack
+    url: https://hosted.weblate.org/translate/frigate-nvr/config-global/fa/?checksum=bfa1e62560acbfc5
+
+  [181578376] detectors.edgetpu.label
+    src: EdgeTPU
+    tgt: EdgeTPU
+    url: https://hosted.weblate.org/translate/frigate-nvr/config-global/fa/?checksum=c57ee4000c8d1d73
+
+  [181578405] detectors.hailo8l.label
+    src: Hailo-8/Hailo-8L
+    tgt: Hailo-8/Hailo-8L
+    url: https://hosted.weblate.org/translate/frigate-nvr/config-global/fa/?checksum=bf9e1700642a1e64
+
+  [181578434] detectors.memryx.label
+    src: MemryX
+    tgt: MemryX
+    url: https://hosted.weblate.org/translate/frigate-nvr/config-global/fa/?checksum=5ca9a05a96a3e82d
+
+  [181578492] detectors.openvino.label
+    src: OpenVINO
+    tgt: OpenVINO
+    url: https://hosted.weblate.org/translate/frigate-nvr/config-global/fa/?checksum=abeb72040eaf39a0
+
+  [181578604] detectors.tensorrt.label
+    src: TensorRT
+    tgt: TensorRT
+    url: https://hosted.weblate.org/translate/frigate-nvr/config-global/fa/?checksum=bf8fd2a46fa41829
+
+  [181578891] record.label
+    src: Recording
+    tgt: ضبط
+    url: https://hosted.weblate.org/translate/frigate-nvr/config-global/fa/?checksum=9ebc9befd693316f
+
+  [181579031] audio_transcription.enabled.label
+    src: Enable audio transcription
+    tgt: فعال کردن رونویسی صوتی
+    url: https://hosted.weblate.org/translate/frigate-nvr/config-global/fa/?checksum=04278419edc17742
+
+  [181579059] classification.custom.object_config.objects.label
+    src: Classify objects
+    tgt: طبقه‌بندی اشیاء
+    url: https://hosted.weblate.org/translate/frigate-nvr/config-global/fa/?checksum=d71393a524b790e0
+
+=== config-cameras (4 checks) ===
+  [181427595] label
+    src: CameraConfig
+    tgt: پیکربندی دوربین
+    url: https://hosted.weblate.org/translate/frigate-nvr/config-cameras/fa/?checksum=c34dfe61e3f1bac1
+
+  [181427620] audio_transcription.enabled.label
+    src: Enable transcription
+    tgt: فعال کردن رونویسی
+    url: https://hosted.weblate.org/translate/frigate-nvr/config-cameras/fa/?checksum=04278419edc17742
+
+  [181427794] record.label
+    src: Recording
+    tgt: ضبط
+    url: https://hosted.weblate.org/translate/frigate-nvr/config-cameras/fa/?checksum=9ebc9befd693316f
+
+  [181428014] ui.label
+    src: Camera UI
+    tgt: رابط کاربری دوربین
+    url: https://hosted.weblate.org/translate/frigate-nvr/config-cameras/fa/?checksum=09f98a67bbee87e7
+
+=== common (4 checks) ===
+  [152349252] button.enabled
+    src: Enabled
+    tgt: فعال
+    url: https://hosted.weblate.org/translate/frigate-nvr/common/fa/?checksum=bf86710dab87bb00
+
+  [152349256] button.save
+    src: Save
+    tgt: ذخیره
+    url: https://hosted.weblate.org/translate/frigate-nvr/common/fa/?checksum=0ae79fdfa0279e71
+
+  [152349260] button.copy
+    src: Copy
+    tgt: کپی
+    url: https://hosted.weblate.org/translate/frigate-nvr/common/fa/?checksum=6d746039eea9faca
+
+  [152349272] button.delete
+    src: Delete
+    tgt: حذف
+    url: https://hosted.weblate.org/translate/frigate-nvr/common/fa/?checksum=806d7e70ce1e94b2
+
+=== views-system (6 checks) ===
+  [152359686] cameras.label.detect
+    src: detect
+    tgt: تشخیص
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-system/fa/?checksum=2638e6cd84675fc0
+
+  [152359693] cameras.label.cameraFfmpeg
+    src: {{camName}} FFmpeg
+    tgt: {{camName}} FFmpeg
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-system/fa/?checksum=bb757f8e7c7dfc04
+
+  [152359709] enrichments.title
+    src: Enrichments
+    tgt: غنی‌سازی‌ها
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-system/fa/?checksum=049a49768411d5ca
+
+  [175758738] general.otherProcesses.series.go2rtc
+    src: go2rtc
+    tgt: go2rtc
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-system/fa/?checksum=0284c1078dc837ad
+
+  [175758739] general.otherProcesses.series.recording
+    src: recording
+    tgt: ضبط
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-system/fa/?checksum=80014179adc62483
+
+  [180823496] cameras.connectionQuality.fair
+    src: Fair
+    tgt: متوسط
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-system/fa/?checksum=bfe3be800bf54f57
+
+=== objects (2 checks) ===
+  [152349483] fedex
+    src: FedEx
+    tgt: FedEx
+    url: https://hosted.weblate.org/translate/frigate-nvr/objects/fa/?checksum=d6329fcc9f9fe851
+
+  [152349489] postnord
+    src: PostNord
+    tgt: PostNord
+    url: https://hosted.weblate.org/translate/frigate-nvr/objects/fa/?checksum=18c38f85ca31e142
+
+=== views-exports (2 checks) ===
+  [180822990] caseDialog.descriptionLabel
+    src: Description
+    tgt: توضیحات
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-exports/fa/?checksum=13b79df992e41bee
+
+  [186237997] bulkActions.delete
+    src: Delete
+    tgt: حذف
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-exports/fa/?checksum=baaefa3c59038ada
+
+=== views-search (2 checks) ===
+  [152359565] button.save
+    src: Save search
+    tgt: ذخیره جستجو
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-search/fa/?checksum=0ae79fdfa0279e71
+
+  [152359586] filter.searchType.description
+    src: Description
+    tgt: توضیحات
+    url: https://hosted.weblate.org/translate/frigate-nvr/views-search/fa/?checksum=277bb7b71819c4a5
+
+Total checks across all components: 90

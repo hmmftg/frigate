@@ -68,7 +68,7 @@
     "desc": "یک نام جدید برای {{name}} وارد کنید"
   },
   "nofaces": "هیچ چهره‌ای موجود نیست",
-  "trainFaceAs": "شناسایی شدآموزش چهره به‌عنوان:",
+  "trainFaceAs": "آموزش چهره به‌عنوان:",
   "trainFace": "آموزش چهره",
   "toast": {
     "success": {
@@ -76,6 +76,7 @@
       "addFaceLibrary": "{{name}} با موفقیت به کتابخانهٔ چهره اضافه شد!",
       "deletedFace_one": "حذف این {{count}} چهره با موفقیت انجام شد.",
       "deletedFace_other": "حذف {{count}} چهره با موفقیت انجام شد.",
+      "deletedName_zero": "مجموعهٔ خالی با موفقیت حذف شد.",
       "deletedName_one": "{{count}} چهره با موفقیت حذف شد.",
       "deletedName_other": "{{count}} چهره با موفقیت حذف شدند.",
       "renamedFace": "نام چهره با موفقیت به {{name}} تغییر یافت",
